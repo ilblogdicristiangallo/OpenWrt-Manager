@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-v3.x-02569B?logo=flutter" alt="Flutter">
   <img src="https://img.shields.io/badge/Dart-v3.x-0175C2?logo=dart" alt="Dart">
-  <img src="https://img.shields.io/badge/OpenWrt-19.07%20|%2021.02%20|%2022.03%20|%2023.05%20|%2024.x-blue?logo=openwrt" alt="OpenWrt">
+  <img src="https://img.shields.io/badge/OpenWrt-24.x%20|%2025.x-blue?logo=openwrt" alt="OpenWrt">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
   <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-lightgrey" alt="Platform">
 </p>
@@ -50,8 +50,12 @@
 |:---:|:---:|:---:|:---:|
 | <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/2.jpeg?raw=true" width="220"> | <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/3.jpeg?raw=true" width="220"> | <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/4.jpeg?raw=true" width="220"> | <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/5.jpeg?raw=true" width="220"> |
 | <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/6.jpeg?raw=true" width="220"> | <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/7.jpeg?raw=true" width="220"> | <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/8.jpeg?raw=true" width="220"> | <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/9.jpeg?raw=true" width="220"> |
----
-# Visit my account:
-https://play.google.com/store/apps/developer?id=Cristian+Gallo
+
+
+# Visit my account web:
+
 https://www.ilblogdicristiangallo.com/app-cristiangallo-firetv-playstore
-ilblogdicristiangallo.com
+
+https://play.google.com/store/apps/developer?id=Cristian+Gallo
+
+https://ilblogdicristiangallo.com

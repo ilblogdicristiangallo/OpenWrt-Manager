@@ -1,46 +1,57 @@
-# 🌐 OpenWrt Manager
+<p align="center">
+  <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/logo.png?raw=true" alt="OpenWrt Manager Logo" width="130">
+</p>
 
-![Flutter Version](https://img.shields.io/badge/Flutter-v3.x-02569B?logo=flutter)
-![Dart Version](https://img.shields.io/badge/Dart-v3.x-0175C2?logo=dart)
-![OpenWrt Compatible](https://img.shields.io/badge/OpenWrt-19.07%20|%2021.02%20|%2022.03%20|%2023.05-blue?logo=openwrt)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+<h1 align="center">OpenWrt Manager</h1>
 
-A modern, fast, and feature-rich native mobile application (Android/iOS) built with **Flutter** to monitor, manage, and configure **OpenWrt** routers. 
-Designed as a sleek and native alternative to the LuCI web interface, it communicates directly with the router via **UBUS RPC** and shell commands.
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-v3.x-02569B?logo=flutter" alt="Flutter">
+  <img src="https://img.shields.io/badge/Dart-v3.x-0175C2?logo=dart" alt="Dart">
+  <img src="https://img.shields.io/badge/OpenWrt-19.07%20|%2021.02%20|%2022.03%20|%2023.05%20|%2024.x-blue?logo=openwrt" alt="OpenWrt">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-lightgrey" alt="Platform">
+</p>
+
+<p align="center">
+  <b>A modern, fast, and feature-rich native mobile application built with Flutter to monitor, manage, and configure OpenWrt routers.</b><br>
+  <i>Designed as a sleek, native alternative to the standard LuCI web interface, communicating directly via UBUS RPC and authenticated APIs.</i>
+</p>
+
+---
 
 ## ✨ Key Features
 
 ### 📊 Real-Time Dashboard
-* Live network traffic monitoring (Download/Upload speeds).
-* CPU, RAM, and Load Average tracking.
-* **Advanced 4G/5G Modem Support:** Smart detection of cellular interfaces (QMI, MBIM, NCM), accurate WAN IP extraction, and connection status.
+* **Live Network Traffic:** Real-time download/upload bandwidth monitoring.
+* **Hardware Metrics:** Live CPU load, RAM usage, and Load Average tracking.
+* **Cellular / 4G / 5G Support:** Smart detection for cellular interfaces (QMI, MBIM, NCM), signal quality metrics, and accurate public WAN IP tracking.
 
-### 📱 Connected Devices
-* Intelligent detection of connected clients.
-* Accurately distinguishes between **Wi-Fi** (Blue) and **Ethernet/Wired** (Green) devices using advanced ARP, DHCP leases, and `iwinfo` / `hostapd` data.
-* Device categorization with smart icons (Phones, Consoles, TVs, Laptops).
+### 📱 Connected Devices & Network Topology
+* Real-time client discovery via ARP tables, active DHCP leases, and wireless associations (`iwinfo` / `hostapd`).
+* Visual distinction between **Wi-Fi** and **Wired / Ethernet** connections.
+* Smart device categorization (Smartphones, PCs, Consoles, Smart TVs, IoT).
 
-### 🛡️ Firewall & Security (LuCI Parity)
-* **Flow Offloading:** Native toggle for Software, Hardware, and None, fully synchronized with router defaults.
-* **Zone Management:** Create and edit Firewall Zones (LAN, WAN, VPN, Guest) with Advanced and Conntrack settings.
-* Traffic Rules & Port Forwarding (NAT) management.
+### 🛡️ Firewall & Network Security
+* **Flow Offloading:** Toggle Software / Hardware offloading with live synchronization to LuCI settings.
+* **Firewall Zones:** Create and customize LAN, WAN, VPN, and Guest zones with advanced conntrack settings.
+* **Port Forwarding & Traffic Rules:** Manage port forwarding (NAT) and custom firewall traffic rules.
 
-### ⚙️ System & Network Control
-* **Wi-Fi:** Enable/disable radios, change SSID, Encryption, and Passwords.
-* **DHCP & DNS:** Full control over `dnsmasq` and `odhcpd` (IPv4/IPv6 leases, static IPs).
-* **Package Management:** Browse and install OPKG packages directly from the app.
-* **System Tools:** View System Logs (`logread`), manage Services/Daemons, Backup/Restore, and Firmware upgrades.
-* **Diagnostics:** Built-in Ping, Traceroute, and a fallback LuCI WebView.
+### ⚙️ System & Network Controls
+* **Wi-Fi Management:** Enable/disable radios, update SSIDs, passwords (WPA2/WPA3), channels, and TX power.
+* **DHCP & DNS:** Manage static IP bindings, DHCP lease times, and DNS forwarders (`dnsmasq` / `odhcpd`).
+* **OPKG Package Manager:** Search, install, update, and remove packages directly from the app.
+* **Diagnostics & System Tools:** Built-in Ping, Traceroute, live `logread` viewer, router reboot/power controls, and fallback LuCI WebView.
 
 ---
 
 ## 📸 Screenshots
 
-*(Replace these placeholder links with actual screenshots of your app once uploaded to GitHub)*
-
-| Dashboard | Connected Clients | Firewall & Offloading |
-| :---: | :---: | :---: |
-| <img src="https://via.placeholder.com/250x500.png?text=Dashboard" width="250"> | <img src="https://via.placeholder.com/250x500.png?text=Clients" width="250"> | <img src="https://via.placeholder.com/250x500.png?text=Firewall" width="250"> |
-
+| | | | |
+|:---:|:---:|:---:|:---:|
+| <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/2.jpeg?raw=true" width="220"> | <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/3.jpeg?raw=true" width="220"> | <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/4.jpeg?raw=true" width="220"> | <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/5.jpeg?raw=true" width="220"> |
+| <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/6.jpeg?raw=true" width="220"> | <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/7.jpeg?raw=true" width="220"> | <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/8.jpeg?raw=true" width="220"> | <img src="https://github.com/ilblogdicristiangallo/OpenWrt-Manager/blob/main/Screenshot/9.jpeg?raw=true" width="220"> |
 ---
-# STAY TUNED
+# Visit my account:
+https://play.google.com/store/apps/developer?id=Cristian+Gallo
+https://www.ilblogdicristiangallo.com/app-cristiangallo-firetv-playstore
+ilblogdicristiangallo.com
